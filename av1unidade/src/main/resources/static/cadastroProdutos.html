@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrando Produtos</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: transparent; height: 100vh; margin: 0;">
+<h1>Espaço do Lojista</h1>
+<h2>Cadastro de Produtos</h2>
+<form action="/cadastrarProduto" method="post">
+    <label>Nome:</label> <br>
+    <input type="text" name="nome" id="nome"> </br>
+    <label>Descrição:</label> <br>
+    <input type="text" name="descricao" id="descricao"> </br>
+    <label>Preço:</label> <br>
+    <input type="text" name="preco" id="preco"> </br>
+    <label>Estoque:</label> <br>
+    <input type="number" name="estoque" id="estoque"> </br>
+    <button type="submit" style="margin-left: 50px; margin-top: 10px">Cadastrar</button>
+</form>
+<br>
+<button><a href="exibirProdutos.html" style="text-decoration: none; color: black; margin-top: 10px">Voltar</a></button>
+</body>
+</html>
